@@ -1,0 +1,27 @@
+11:02:10.110 INFO - Launching a standalone Selenium Server
+11:02:10.642 INFO - Java: Oracle Corporation 25.91-b15
+11:02:10.642 INFO - OS: Windows 10 10.0 amd64
+11:02:10.690 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+11:02:11.128 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+11:02:11.128 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+11:02:11.307 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
+11:02:11.315 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+11:02:11.315 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+11:02:11.722 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+11:02:11.722 INFO - Selenium Server is up and running
+11:02:15.308 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+11:02:15.490 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 47591
+Only local connections are allowed.
+11:02:23.706 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+11:02:23.721 INFO - Executing: [get: http://localhost:8080])
+11:02:25.336 INFO - Done: [get: http://localhost:8080]
+11:02:25.349 INFO - Executing: [find elements: By.cssSelector: #app])
+11:02:25.503 INFO - Done: [find elements: By.cssSelector: #app]
+11:02:25.510 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (b5efbef34fe6c64d3194de61188b7719)] -> css selector: #app]])
+11:02:25.565 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (b5efbef34fe6c64d3194de61188b7719)] -> css selector: #app]]
+11:02:25.572 INFO - Executing: [find elements: By.cssSelector: .hello])
+11:02:25.590 INFO - Done: [find elements: By.cssSelector: .hello]
+11:02:25.602 INFO - Executing: [delete session: f40f6d83-3fca-4d3d-a545-42224a8cf85a])
+11:02:27.368 INFO - Done: [delete session: f40f6d83-3fca-4d3d-a545-42224a8cf85a]
